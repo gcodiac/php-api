@@ -1,17 +1,19 @@
 <?php
     require "../vendor/autoload.php";
     use GenericApiLayer\GenericApiLayer;
-
     if (!isset($_GET['page'])) {
         $page = 2;
+    } else {
+
+        $page = $_GET['page'];
     }
-    $page = $_GET['page'];
 
     $api = new GenericApiLayer();
     // Retrieve a page 2 list of users
     $users = $api->getUsers($page);
+
     // retrieve user with id
-    // $user = $api->getUser(3);
+    // $user = $api->getUser(4);
 
 ?>
 
