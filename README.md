@@ -28,6 +28,6 @@ $ composer install
 ![Screenshot 2022-07-26 at 15 23 17](https://user-images.githubusercontent.com/42435299/181030182-7eac0412-3226-4ba4-918a-c6ea42420133.png)
 
 0r 
-- Uncomment the following line: $user = $api->getUser(3); A method to retrieve a single user by ID
+- Uncomment the following line: $user = $api->getUser(3);  to retrieve a single user by ID
 ## Sample Output:
 ![Screenshot 2022-07-26 at 15 29 02](https://user-images.githubusercontent.com/42435299/181032761-41788c4a-18c7-4bb9-81aa-6aed0bdbc92d.png)
