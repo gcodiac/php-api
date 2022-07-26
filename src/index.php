@@ -64,7 +64,7 @@
                     <img alt="image" class="img-circle" src="<?php echo $user['data']['avatar']; ?>">
                     <h3 class="m-b-xs"><strong><?php echo $user['data']['first_name'] . ' ' . $user['data']['last_name']; ?></strong></h3>
 
-                    <div class="font-bold">Graphics designer</div>
+  
                     <address class="m-t-md">
                         <abbr title="Email">E:</abbr><?php echo $user['data']['email']; ?>
                     </address>
@@ -101,7 +101,6 @@
                     <img alt="image" class="img-circle" src="<?php echo $contact['avatar']; ?>">
                     <h3 class="m-b-xs"><strong><?php echo $contact['first_name'] . ' ' . $contact['last_name']; ?></strong></h3>
 
-                    <div class="font-bold">Graphics designer</div>
                     <address class="m-t-md">
                         <abbr title="Email">E:</abbr><?php echo $contact['email']; ?>
                     </address>
